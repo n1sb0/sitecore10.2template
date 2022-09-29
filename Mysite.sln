@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mysite.Project.Website", "Mysite.Project.Website\Mysite.Project.Website.csproj", "{4E677F14-0BA3-45FD-A263-823BB95A2B0C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{387838CD-4D22-4723-8312-FBB48E5D5598}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment", "{52DD6E69-E7FA-4A11-A3F7-71FCBF954399}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Faundation", "Faundation", "{82BA7618-E236-4F09-BE9F-C051659113C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{505E0C89-2734-4E11-B46A-F2F1C2BCD12B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{9115D361-E747-4714-9D50-BF895D597F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{AF8E7698-6CAA-47E2-B414-867A2DD1230D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mysite.Project.Website", "src\Project\Website\code\Mysite.Project.Website.csproj", "{BDA3065E-908C-4D52-8FB3-2674E135BCB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +23,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E677F14-0BA3-45FD-A263-823BB95A2B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E677F14-0BA3-45FD-A263-823BB95A2B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E677F14-0BA3-45FD-A263-823BB95A2B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E677F14-0BA3-45FD-A263-823BB95A2B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA3065E-908C-4D52-8FB3-2674E135BCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA3065E-908C-4D52-8FB3-2674E135BCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA3065E-908C-4D52-8FB3-2674E135BCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA3065E-908C-4D52-8FB3-2674E135BCB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9115D361-E747-4714-9D50-BF895D597F3D} = {387838CD-4D22-4723-8312-FBB48E5D5598}
+		{AF8E7698-6CAA-47E2-B414-867A2DD1230D} = {505E0C89-2734-4E11-B46A-F2F1C2BCD12B}
+		{BDA3065E-908C-4D52-8FB3-2674E135BCB6} = {9115D361-E747-4714-9D50-BF895D597F3D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B8FC7FB8-C32E-47F3-895D-AD683EF2073B}
